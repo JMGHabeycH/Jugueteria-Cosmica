@@ -1,0 +1,25 @@
+<% products.forEach(product => { %>
+    <div class="cart-item__container">
+        <div class="cart-item__image-container">
+            <img class="cart-item__image" src="<%= product.productImage %>" alt="<%= product.cloudinary_id %>">
+        </div>
+        <div class="cart-item__info-container">
+            <div class="cart-item__general-info">
+                <h2 class="cart-item__item-name"><%= product.name %></h2>
+                <p class="cart-item__item-price">$<%= product.price %></p>
+            </div>
+            <p class="cart-item__item-quantity">10</p>
+        </div>
+        <div class="cart-item__item-trash-icon-container">
+            
+            <form
+                action="/<%= product.id %>?_method=DELETE"
+                method="POST"
+            >
+                <button type="submit">
+                    <img class="cart-item__item-trash-icon" src="img/logotipos/trashIcon.png" alt="Delete item">
+                </button>
+            </form>
+        </div>
+    </div>
+<% }); %>
