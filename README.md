@@ -1,19 +1,21 @@
 # JUGUETERIA COSMICA
 
-Juguetería Cósmica es un proyecto web ecommerce desarrollado con HTML, CSS, SASS, NodeJS y MongoDB. Permite a los usuarios realizar acciones CRUD en línea de juguetes de manera fácil y segura.
+Juguetería Cósmica It is an ecommerce web project developed with HTML, CSS, SASS, NodeJS and MongoDB. It allows users to perform CRUD actions online for toys in an easy and secure way.
 
-## Características
-* Interfaz de usuario atractiva y fácil de usar, con navegación intuitiva y una experiencia de usuario fluida.
-* Diseño web responsive para visualizar correctamente la pagina en distintos dispositivos.
-* Base de datos MongoDB para almacenar información del producto.
+## Features
 
-## Tecnologías
-El proyecto utiliza una combinación de tecnologías, que incluyen:
+* Attractive and user-friendly interface, with intuitive navigation and a smooth user experience.
+* Responsive web design to correctly display the page on different devices.
+* MongoDB database to store product information.
 
-* HTML y CSS para el diseño del sitio web.
-* SASS para la gestión eficiente de estilos y su reutilización.
-* NodeJS para desarrollar el backend del sitio web, que se encarga de realizar operaciones de base de datos y manejar la lógica de negocios.
-* MongoDB, una base de datos NoSQL altamente escalable y flexible.
+## Technologies
 
-#### Autor
-El proyecto fue desarrollado por Juan Miguel Garcia Habeych.
+The project uses a combination of technologies, including:
+
+* HTML and CSS for web design.
+* SASS for efficient management of styles and their reuse.
+* NodeJS to develop the website's backend, which handles database operations and manages business logic.
+* MongoDB, a highly scalable and flexible NoSQL database.
+
+#### Author
+The project was developed by Juan Miguel Garcia Habeych.
