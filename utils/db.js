@@ -5,12 +5,12 @@ mongoose.set('strictQuery', false);
 
 const setupDB = async ()=>{
     try{
-        mongoose
-            .connect(process.env.MONGODB_URI)
-            .then((dataBase) => console.log(`Conectado con MongoDB Atlas a ${dataBase.connection.host}`))
-            .catch((error) => console.log(error));
+        await mongoose
+            .connect(process.env.MONGODB_URI);
+        console.log('Conectado con MongoDB Atlas');
+            
     }catch(error){
-        return null;
+        console.log(error);
     }
 };
 

@@ -7,7 +7,6 @@ router.get("/", async (req, res) => {
     const products = await Product.find().sort({
         createAt: "desc",
     });
-    console.log(products);
     res.render("pages/home", {
         products: products,
         title: 'Home',
